@@ -1,0 +1,55 @@
+.footer {
+    background-color: #072038;
+}
+
+.anchor-tag {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.hover-color{
+    color: white;
+    width: fit-content;
+}
+.list-icon{
+    list-style-type: disclosure-closed;
+}
+
+.hover-color:hover li a,.hover-color:hover
+{
+    color: #FF6347;
+    letter-spacing: 1px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.gb-head {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+/* .gb-head .address {
+    font-size: 1px;
+} */
+
+.follow-us {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* a:hover{
+    color: red;
+} */
+.icon-tag:hover{
+    color: white;
+}

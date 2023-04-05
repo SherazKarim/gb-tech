@@ -1,0 +1,160 @@
+.navbar {
+  background-color: #072038;
+  position: fixed;
+  /* top: -50px; */
+  width: 100%;
+  display: flex;
+  transition: top 0.3s;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  color: #FF6347 ;
+}
+
+.bg-primary-color {
+  background: transparent;
+}
+
+.vl {
+  border-left: 2px solid white;
+  height: 16px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none !important;
+}
+
+.navbar-brand {
+  padding-left: 29px;
+}
+
+.navbar {
+  position: fixed;
+}
+.navbar-nav{
+  display: inline-flex;
+}
+
+.nav-pills .nav-link.active {
+  color: #FF6347 !important;
+  background-color: transparent !important;
+}
+
+.activeTab {
+  color: #FF6347 !important;
+}
+
+.a:hover {
+  color: #FF6347 !important;
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+}
+
+.nav-item {
+  padding: 0px !important;
+}
+
+.navbar-toggler {
+  background-color: white !important;
+}
+
+.adress {
+  display: flex !important;
+}
+
+.vl {
+  margin-top: 12px !important;
+  height: 20px !important;
+
+}
+
+.nav-link {
+  color: gray !important;
+}
+
+/* Media Quries */
+
+/* @media only screen and (max-width: 600px) {
+  .nav-pills {
+    display: block !important;
+  }
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 368px) and (max-width:912px) {
+
+  .nav-pills {
+    display: block !important;
+  }
+
+  .adress {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-left: 15px;
+  }
+
+  .adress {
+    display: flex !important;
+  }
+
+  .vl {
+    margin-top: 0px !important;
+    height: 20px !important;
+  }
+
+  .nav-link {
+    margin-left: 5px;
+  }
+
+  .navbar-brand {
+    padding-left: 0px !important;
+  }
+  .adress{
+    margin-left: 21px;
+  }
+  .navbar-brand{
+    margin-left: 7px;
+  }
+  .navbar{
+    padding: 15px;
+    background: #092a49 !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 912px) and (max-width: 992px) {
+  .navbar-nav{
+    display: inline-flex;
+  }
+  .navbar-brand{
+    margin-left: 7px;
+  }
+  .adress{
+    margin-left: 21px;
+  }
+  .navbar{
+    padding: 15px;
+    background: #092a49 !important;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

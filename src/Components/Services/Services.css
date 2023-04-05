@@ -1,0 +1,197 @@
+.box {
+    box-sizing: border-box;
+    border: 2px;
+    color: black;
+}
+
+hr {
+    border: 1px solid #F47621;
+    margin: 10px 80px;
+    height: 1px;
+}
+
+.read-more {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #F47621;
+    text-decoration: none;
+}
+
+.heads {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #072038;
+}
+
+.heads::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 0;
+    top: 15px;
+    left: 150px;
+    border-bottom: 30px solid;
+    border-image: repeating-linear-gradient(60deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05) 1.5%, rgba(0, 0, 0, .1) 1.5%, rgba(0, 0, 0, .1) 3%) 30;
+}
+
+.head-6 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 31px;
+
+    color: #072038;
+}
+
+.para-p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #797979;
+}
+
+.card:hover {
+    background-color: #072038;
+}
+
+.icons {
+    height: 50px;
+    width: 49px;
+}
+
+.card:hover p {
+    color: white;
+}
+
+.card:hover h6 {
+    color: #F47621;
+}
+
+.main-headings {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #072038;
+}
+
+.line {
+    border-bottom: 3px solid #F47621;
+    width: 170px;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-width {
+    margin-right: 145px;
+}
+
+.card {
+    -webkit-appearance: none;
+    border: 1px solid rgba(7, 32, 56, 0.28) !important;
+    border-radius: 0px !important
+}
+
+.read-line {
+    border-bottom: 2px solid #F47621;
+    width: 74px;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-content:hover .read-more {
+    animation-duration: 1s;
+    animation-name: slideright;
+}
+
+/* @keyframes slideleft {
+    from  {
+      margin-left: 18%;
+      width: 100%;
+    }
+    to  { 
+      margin-left: 0%;
+      width: 100%;
+    }
+  } */
+
+@keyframes slideright {
+    from {
+        margin-left: -10%;
+        width: 40%;
+    }
+
+    to {
+        margin-left: 10%;
+        width: 36%;
+    }
+}
+
+/* Services details */
+
+.img-width {
+    height: 600px;
+    width: 600px;
+}
+
+.about-text p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #797979;
+    /* font-family: 'Lato', sans-serif; */
+}
+
+@media (max-width:570px) {
+    .heads::before {
+        display: none;
+    }
+}
+
+
+/* Media Quries */
+
+@media only screen and (max-width: 600px) {
+    .heads::before {
+        display: none;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width:992px) {
+    .heads::before {
+        display: none;
+    }
+}
+@media (max-width:1024px) {
+    .heads::before {
+        left: 40px;
+       }
+    
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
